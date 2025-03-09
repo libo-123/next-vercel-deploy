@@ -13,6 +13,5 @@ dev默认开启了严格模式，严格模式下，组件会渲染两次，模�
 
 reactStrictMode: false, // 关闭严格模式
 
-## 3、useRouter
-
-useRouter 可以获取当前的路径，详细看项目测试 dashbord-layout-state
+## 3、组件网址
+https://www.creative-tim.com/  -> twComponents 借助taillwindcssshi实现的组件
