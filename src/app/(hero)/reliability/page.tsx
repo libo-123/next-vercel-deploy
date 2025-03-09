@@ -1,6 +1,6 @@
 import Hero from '@/components/hero';
 import React from 'react'
-import reliability from "../../../public/img/reliability.png";
+import reliability from "../../../../public/img/reliability.png";
 
 import { Metadata } from "next";
 

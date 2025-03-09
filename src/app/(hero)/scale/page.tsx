@@ -1,6 +1,6 @@
 import Hero from '@/components/hero';
 import React from 'react'
-import scale from "../../../public/img/scale.png";
+import scale from "../../../../public/img/scale.png";
 
 import { Metadata } from "next";
 

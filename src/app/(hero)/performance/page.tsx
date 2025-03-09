@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import performance from "../../../public/img/performance.png";
+import performance from "../../../../public/img/performance.png";
 import Hero from "@/components/hero";
 import { Metadata } from "next";
 

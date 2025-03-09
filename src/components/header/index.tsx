@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useEffect, useState } from "react";
 
 const linkData =[
     {
@@ -20,19 +19,19 @@ const linkData =[
 
 ]
 
-const accessLink = ['/','/performance', '/reliability', '/scale'];
+// const accessLink = ['/','/performance', '/reliability', '/scale'];
 const Header = () => {
   const pathname = usePathname();
-  const [shouldRender, setShouldRender] = useState(true);
+  // const [shouldRender, setShouldRender] = useState(true);
   
-  useEffect(() => {
-    setShouldRender(accessLink.includes(pathname || ''));
-  }, [pathname]);
+  // useEffect(() => {
+  //   setShouldRender(accessLink.includes(pathname || ''));
+  // }, [pathname]);
 
   // 不能直接写，会导致服务端与客户端数据不一致
-  if (!shouldRender) {
-    return null;
-  }
+  // if (!shouldRender) {
+  //   return null;
+  // }
   
   return (
     <div className="absolute w-full z-10">
