@@ -50,6 +50,9 @@ className={`${geist.variable} antialiased`}
 ## vercel发布
 
 1、vercel 部署
+https://vercel.com/libo-123s-projects   它会自动关联github项目
+
+非常nice
 
 
 

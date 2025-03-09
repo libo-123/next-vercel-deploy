@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 const Performance = () => {
-  return <Hero imageUrl={performance} title="Perfessional Cloud Hosting" altText="performance" />;
+  return <Hero imageUrl={performance} title="Perfessional Cloud Hosting-----" altText="performance_update" />;
 };
 
 export default Performance;
