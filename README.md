@@ -54,5 +54,7 @@ https://vercel.com/libo-123s-projects   它会自动关联github项目
 
 非常nice
 
+2、支持自动刷新 当push代码到远端的时候，vercel会自动刷新
+
 
 
